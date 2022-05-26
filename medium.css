@@ -1,0 +1,17 @@
+grid-Container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    grid-gap: 10px;
+    justify-items: center;
+    background-color: #f2efeb;
+  }
+  .gridpack-item {
+    text-align: center;
+  }
+  img {
+    height: 200px;
+    width: 250px;
+    /* display: center; */
+    padding-top: 15px;
+  }
